@@ -1,0 +1,607 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/* reset */
+html,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+body {
+  background: #FFDB24;
+  background-image: url('data:image/svg+xml,\
+    <svg xmlns="http://www.w3.org/2000/svg" \
+    height="30" width="30"> \
+ <polyline points="0,0 15,5 15,25 0,30"  style="fill:#FFDB24;stroke:#FFFF57;stroke-width:3" /> \
+    <polyline points="30,0 15,5 15,25 30,30"  style="fill:#FFDB24;stroke:#FFFF57;stroke-width:2" /> \
+ </svg>'), url('data:image/svg+xml,\
+    <svg xmlns="http://www.w3.org/2000/svg" \
+    height="30" width="30"> \
+ <polyline points="0,0 15,5 15,25 0,30"  style="fill:#FFDB24;stroke:#FFFF57;stroke-width:3" /> \
+    <polyline points="30,0 15,5 15,25 30,30"  style="fill:#FFDB24;stroke:#FFFF57;stroke-width:1" /> \
+ </svg>');
+  background-position: 0 0, 10px 17px;
+  background-size: 20px 35px;
+}
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+/*--start-body--*/
+body{
+    background:#f8da56;
+    font-family: 'Raleway', sans-serif;
+
+}
+body a,form li,.submit input[type="submit"],.new p a,.new p.sign{
+	transition: 0.1s all;
+	-webkit-transition: 0.1s all;
+	-moz-transition: 0.1s all;
+	-o-transition: 0.1s all;
+}
+
+.main {
+        margin: 12% auto 9%;
+    width: 32%;
+}
+.login.hexagon_box h1 {
+   color: #24A95A;
+    font-size: 2em;
+    text-align: center;
+}
+.hexagon_box {
+          width: 499px;
+    height: 340px;
+    background: #fff;
+    position: relative;
+    overflow: visible;
+    box-sizing: border-box;
+}
+.hexagon_box:after {
+    content: "";
+    position: absolute;
+    bottom: -86px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left:247px solid transparent;
+    border-right:250px solid transparent;
+    border-top:86px solid #fff;
+}
+.hexagon_box:before {
+       content: "";
+    position: absolute;
+    top: -86px;
+    left: 0;
+    width: 0;
+    height: 0;
+       border-left: 247px solid transparent;
+    border-right: 250px solid transparent;
+    border-bottom: 86px solid #fff;
+}
+form {
+    padding: 2em 4em;
+}
+form  input[type="text"],form input[type="password"]{
+          width: 82.5%;
+    padding: 1em 2em;
+    color: #444;
+    font-size: 16px;
+    outline: none;
+    font-weight: 500;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+  background: #D3D3D3;
+    float: left;
+	    border: 1px solid #DED6D6;
+    margin-bottom: 3%;
+    border-radius: 0.2em;
+    -o-border-radius: 0.2em;
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    -ms-border-radius: 0.2em;
+  }
+.submit {
+  margin: 1em 0;
+  }
+form input[type="submit"]{
+    font-size: 17px;
+    font-weight: 300;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 0.88em 1em;
+    width:100%;
+    border: none;
+    background:#24a95a;
+    border-radius: 0.2em;
+    -o-border-radius: 0.2em;
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    -ms-border-radius: 0.2em;
+		transition: 0.1s all;
+	-webkit-transition: 0.1s all;
+	-moz-transition: 0.1s all;
+	-o-transition: 0.1s all;
+	box-shadow: inset 0px 0px 10px #666464;
+    -webkit-text-shadow: 0px 0px 3px #000;
+    -moz-text-shadow: 0px 0px 3px #000;
+    -o-text-shadow: 0px 0px 3px #000;
+    -ms-text-shadow: 0px 0px 3px #000;
+}
+form input[type="submit"]:hover{
+background:#01963D;
+
+}
+
+.new {
+    margin: 3em 0 1em 0;
+}
+.new p{
+  float:left;
+}
+.new p a,.new p.sign a,.new p.sign{
+     color: #25A75A;
+    font-weight: 400;
+    font-size: 1em;
+}
+.new p a:hover,.new p.sign a:hover{
+  text-decoration: underline;
+}
+.new p.sign{
+  float:right;
+}
+/*--copy-right--*/
+.copy-right {
+     margin-top: 6em;
+}
+.copy-right p {
+color:#0F793A;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center
+}
+.copy-right p a {
+	    color: #fff;
+}
+.copy-right p a:hover {
+	text-decoration: underline;
+}
+/*--//copy-right--*/
+/*--start-responsive-design--*/
+@media (max-width:1600px){
+
+
+}
+@media (max-width:1440px){
+
+}
+@media (max-width:1366px){
+
+}
+@media (max-width:1280px){
+	.main {
+		margin: 12% auto 9%;
+		width: 42%;
+	}
+}
+@media (max-width:1024px){
+	.main {
+		margin: 14% auto 13%;
+		width: 42%;
+	}
+}
+@media (max-width:991px){
+
+}
+@media (max-width:800px){
+	.main {
+		margin: 32% auto 16%;
+		width: 66%;
+	}
+}
+@media (max-width:768px){
+.main {
+		margin: 32% auto 16%;
+		width: 66%;
+	}
+}
+@media (max-width:736px){
+
+}
+@media (max-width:667px){
+	.main {
+		margin: 27% auto 19%;
+		width: 73%;
+	}
+	.hexagon_box {
+		width: 440px;
+		height: 335px;
+	}
+	.hexagon_box:before {
+		content: "";
+		position: absolute;
+		top: -86px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-left: 224px solid transparent;
+		border-right: 216px solid transparent;
+		border-bottom: 86px solid #fff;
+	}
+	.hexagon_box:after {
+		content: "";
+		position: absolute;
+		bottom: -86px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-left: 214px solid transparent;
+		border-right: 224px solid transparent;
+		border-top: 86px solid #fff;
+	}
+	.copy-right p {
+		font-size: 0.9em;
+		padding: 0 1em;
+		line-height: 1.8em;
+	}
+	    form input[type="text"], form input[type="password"] {
+    width: 78.5%;
+	}
+}
+@media (max-width:640px){
+	.hexagon_box {
+		width: 464px;
+		height: 335px;
+		}
+		.hexagon_box:before {
+		content: "";
+		position: absolute;
+		top: -86px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-left: 235px solid transparent;
+		border-right: 230px solid transparent;
+		border-bottom: 86px solid #fff;
+	}
+	.hexagon_box:after {
+		content: "";
+		position: absolute;
+		bottom: -86px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-left: 235px solid transparent;
+		border-right: 230px solid transparent;
+		border-top: 86px solid #fff;
+	}
+	.main {
+		margin: 27% auto 19%;
+		width: 74%;
+	}
+	form input[type="text"], form input[type="password"] {
+		    width: 78.5%;
+    padding: 0.8em 2em;
+    color: #444;
+    font-size: 16px;
+		}
+		form {
+		padding: 3em 4em;
+	}
+}
+@media (max-width:667px){
+	.main {
+		margin: 27% auto 19%;
+		width: 73%;
+	}
+	.hexagon_box {
+		width: 440px;
+		height: 335px;
+	}
+	.hexagon_box:before {
+		content: "";
+		position: absolute;
+		top: -86px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-left: 224px solid transparent;
+		border-right: 216px solid transparent;
+		border-bottom: 86px solid #fff;
+	}
+	.hexagon_box:after {
+		content: "";
+		position: absolute;
+		bottom: -86px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-left: 214px solid transparent;
+		border-right: 224px solid transparent;
+		border-top: 86px solid #fff;
+	}
+	.copy-right p {
+		font-size: 0.9em;
+		padding: 0 1em;
+		line-height: 1.8em;
+	}
+}
+@media (max-width:600px){
+	.main {
+		margin: 27% auto 19%;
+		width: 73%;
+	}
+	form input[type="text"], form input[type="password"] {
+    width: 78.5%;
+    padding: 0.8em 2em;
+    color: #444;
+    font-size: 16px;
+}
+}
+@media (max-width:480px){
+	.main {
+		margin: 27% auto 19%;
+		width: 91%;
+	}
+	.hexagon_box {
+		width: 440px;
+		height: 335px;
+	}
+	.hexagon_box:before {
+		content: "";
+		position: absolute;
+		top: -86px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-left: 224px solid transparent;
+		border-right: 216px solid transparent;
+		border-bottom: 86px solid #fff;
+	}
+	.hexagon_box:after {
+		content: "";
+		position: absolute;
+		bottom: -86px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-left: 214px solid transparent;
+		border-right: 224px solid transparent;
+		border-top: 86px solid #fff;
+	}
+	.copy-right p {
+		font-size: 0.9em;
+		padding: 0 1em;
+		line-height: 1.8em;
+	}
+}
+@media (max-width:414px){
+.main {
+		margin: 27% auto 19%;
+		width:90%;
+	}
+	.hexagon_box {
+		width: 364px;
+		height: 293px;
+	}
+	.hexagon_box:before {
+		content: "";
+		position: absolute;
+		top: -86px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-left: 189px solid transparent;
+		border-right: 175px solid transparent;
+		border-bottom: 86px solid #fff;
+	}
+	.hexagon_box:after {
+		content: "";
+		position: absolute;
+		bottom: -86px;
+		left: 0;
+		width: 0;
+		height: 0;
+		    border-left: 186px solid transparent;
+    border-right: 179px solid transparent;
+    border-top: 86px solid #fff;
+	}
+	.new {
+		margin: 1em 0 1em 0;
+	}
+	form {
+		padding:2em 3em;
+	}
+	form input[type="text"], form input[type="password"] {
+		width: 75.5%;
+		padding: 0.8em 2em;
+		color: #444;
+		font-size: 16px;
+	}
+	.new p.sign {
+		float: none;
+	}
+	.new p {
+		float: none;
+		text-align:center;
+	}
+	.new p a, .new p.sign a, .new p.sign {
+		font-size: 0.9em;
+		text-align: center;
+	}
+	.new p {
+		margin-bottom: 0.8em;
+	}
+}
+@media (max-width:384px){
+	.main {
+		margin: 32% auto 19%;
+		width:69%;
+	}
+	form {
+		padding: 1em 2em;
+	}
+	form input[type="text"], form input[type="password"] {
+		width: 62.5%;
+		padding: 0.8em 2em;
+		color: #444;
+		font-size: 16px;
+	}
+	form input[type="submit"] {
+		font-size: 17px;
+		font-weight: 300;
+		color: #fff;
+		cursor: pointer;
+		outline: none;
+		padding: 0.7em 1em;
+		width:99%;
+	}
+	.hexagon_box {
+		width: 280px;
+		height: 247px;
+	}
+	.hexagon_box:before {
+		content: "";
+		position: absolute;
+		top: -66px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-left: 144px solid transparent;
+		border-right: 137px solid transparent;
+		border-bottom: 66px solid #fff;
+	}
+	.hexagon_box:after {
+		content: "";
+		position: absolute;
+		bottom: -70px;
+		left: 0;
+		width: 0;
+		height: 0;
+		    border-left: 142px solid transparent;
+			border-right: 139px solid transparent;
+			border-top: 70px solid #fff;
+	}
+	form input[type="text"], form input[type="password"] {
+		width: 85.5%;
+		padding: 0.6em 1em;
+		color: #444;
+		font-size: 14px;
+	}
+	input[type="submit"] {
+		font-size: 17px;
+		font-weight: 300;
+		color: #fff;
+		cursor: pointer;
+		outline: none;
+		padding: 0.68em 1em;
+		width: 99%;
+	}
+	.login.hexagon_box h1 {
+		font-size: 1.6em;
+	}
+	.copy-right p {
+       font-size: 0.85em;
+	}
+	.new p a, .new p.sign a, .new p.sign {
+       font-size: 0.85em;
+	}
+}
+@media (max-width:375px){
+.main {
+		margin: 32% auto 19%;
+		width:70%;
+	}
+}
+@media (max-width:320px){
+	.main {
+		margin: 32% auto 19%;
+		width:87%;
+	}
+	form {
+		padding: 1em 2em;
+	}
+	form input[type="text"], form input[type="password"] {
+		width: 62.5%;
+		padding: 0.8em 2em;
+		color: #444;
+		font-size: 16px;
+	}
+	form input[type="submit"] {
+		font-size: 17px;
+		font-weight: 300;
+		color: #fff;
+		cursor: pointer;
+		outline: none;
+		padding: 0.7em 1em;
+		width:99%;
+	}
+	.hexagon_box {
+		width: 280px;
+		height: 247px;
+	}
+	.hexagon_box:before {
+		content: "";
+		position: absolute;
+		top: -66px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-left: 144px solid transparent;
+		border-right: 137px solid transparent;
+		border-bottom: 66px solid #fff;
+	}
+	.hexagon_box:after {
+		content: "";
+		position: absolute;
+		bottom: -70px;
+		left: 0;
+		width: 0;
+		height: 0;
+		    border-left: 142px solid transparent;
+			border-right: 139px solid transparent;
+			border-top: 70px solid #fff;
+	}
+	form input[type="text"], form input[type="password"] {
+		width: 85.5%;
+		padding: 0.6em 1em;
+		color: #444;
+		font-size: 14px;
+	}
+	input[type="submit"] {
+		font-size: 17px;
+		font-weight: 300;
+		color: #fff;
+		cursor: pointer;
+		outline: none;
+		padding: 0.68em 1em;
+		width: 99%;
+	}
+	.login.hexagon_box h1 {
+		font-size: 1.6em;
+	}
+	.copy-right p {
+       font-size: 0.85em;
+	}
+	.new p a, .new p.sign a, .new p.sign {
+       font-size: 0.85em;
+	}
+}
