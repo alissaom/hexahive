@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HexaHive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+<div class="page-header">
+    <h1 style= "text-align: center; font-family: monospace; font-size: 70px;">HexaHive</h1>
+</div>
+
+<!-- Feature List - START -->
+<div class="container" id="cnt1">
+    <div class="row feature">
+        <div class="col-md-4">
+            <div>
+                <img src="http://lorempixel.com/200/200/city/1/" alt="Texto Alternativo" class="img-circle img-thumbnail">
+                <h2>What is HexaHive?</h2>
+                <p>
+                    HexaHive is a educational calculator where one can upload an image and the most prominent colors are recognized as hexadecimal notation. For example #FF0000 for "red". Hexadecimal is a system ranging from 0-9, A-F representating colors. With HexaHive, the colors generated from the image will convert from hexadecimal to binary.                         
+                </p>
+                <a href="#" class="btn btn-success lower">Don't click</a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div>
+                <img src="http://lorempixel.com/200/200/city/2/" alt="Texto Alternativo" class="img-circle img-thumbnail">
+                <h2>Source Code</h2>
+                <p>
+                     View our source code by clicking on the link below. We utilized the Clarifai API and Slate in our project  
+                </p>
+                <a href="https://github.com/alissaom/slate" class="btn btn-success lower">Click Here</a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div>
+                <img src="http://lorempixel.com/200/200/city/3/" alt="Texto Alternativo" class="img-circle img-thumbnail">
+                <h2>For</h2>
+                <p>
+                    Children all over can learn about binary numbers with our easy to learn HexaHive calculator. They can upload an image of their choosing and experience how computers read information as binary numbers.       
+                </p>
+                <a href="#" class="btn btn-success lower">Non-working Button</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+body {
+  background-color: green;
+}
+ #cnt1 {            
+     background-color:#ffcc33;
+     width:90%;
+     margin-bottom:70px;
+ }
+  
+ .feature{
+     padding: 20px 0;
+    text-align: center;
+ }
+ .feature > div > div{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.2s;
+ }
+ .feature > div:hover > div{
+    margin-top: -10px;
+    border: 1px solid rgb(128, 128, 128);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 5px;
+    background: rgba(232, 215, 215, 0.10);
+    transition: 0.3s;
+ }
+</style>
+
+<!-- Feature List - END -->
+
+</div>
+
+</body>
+</html>
